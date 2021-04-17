@@ -1,3 +1,3 @@
-const highestProfit = require('./highest-profit');
+const highestProfit = require('./highestProfit');
 
 highestProfit('data.csv');
