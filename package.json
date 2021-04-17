@@ -1,0 +1,23 @@
+{
+  "name": "highest-profit",
+  "version": "1.0.0",
+  "description": "Get highest Profit from CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryzhong/highest-profit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryzhong/highest-profit/issues"
+  },
+  "homepage": "https://github.com/ryzhong/highest-profit#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "sinon": "^10.0.0"
+  }
+}
