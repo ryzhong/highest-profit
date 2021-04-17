@@ -1,12 +1,12 @@
 # highest-profit
 
-This app reads a CSV file and creates a JSON format data and looks for the highest profit values.
+This app reads a CSV file and creates a filtered JSON format data file and looks for the highest profit values.
 
-1. The CSV file "data.csv" will first print out the total number of rows of data in the CSV file.
+1. The CSV file "data.csv" will be read and then print out the total number of rows of data in the CSV file.
 Removes all rows of non-numerical values in the profit column and prints out the new number of rows.
 
-2. Convert contents of part 1 into JSON format and write into a new file "data2.json".
-Prints the top 20 rows of highest profits.
+2. The program will then convert contents of part 1 into JSON format and write into a new file "data2.json".
+Then prints the top 20 rows of highest profits.
 
 ## Technologies
 
