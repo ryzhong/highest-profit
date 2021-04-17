@@ -14,6 +14,12 @@ Prints the top 20 rows of highest profits.
 
 ## Installation
 
+Clone repo
+
+```
+git clone https://github.com/ryzhong/highest-profit.git
+```
+
 Install dependencies
 
 ```
