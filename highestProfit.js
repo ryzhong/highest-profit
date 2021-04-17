@@ -1,7 +1,7 @@
 const csv = require('csv-parser');
 const fs = require('fs');
 
-module.exports = (file) => {
+module.exports = (file, test) => {
     //An array to hold JSON formatted data
     let newData = [];
     //holds counters
@@ -23,5 +23,6 @@ module.exports = (file) => {
             //logging total CSV rows, CSV rows with numbers in profit
             console.log(totalCounter)
             console.log(newCounter)
+            if(test) test();
         });
 }
